@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio pessoal de estudante e profissional em formação.">
+  <title>Início | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Portfólio, página inicial"><span class="brand-mark">P</span><span>portfólio<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+        <a aria-current="page" href="index.html">Início</a>
+        <a href="curriculo.html">Currículo</a>
+        <a href="multimidia.html">Multimídia</a>
+        <a href="graficos.html">Gráficos</a>
+        <a class="nav-contact" href="formulario.html">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DISPONÍVEL PARA NOVOS PROJETOS</p>
+        <h1>Ideias que viram<br><span class="text-gradient">experiências digitais.</span></h1>
+        <p class="hero-description">Olá, eu sou <strong>Felipe Silva</strong> — estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, curioso por tecnologia e por soluções que fazem a diferença.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="curriculo.html">Conheça minha trajetória <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="formulario.html">Entre em contato <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>Aprendendo, criando e evoluindo um projeto de cada vez.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata com formas geométricas" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-sun"></div><div class="art-card card-back"></div>
+        <div class="art-card card-front"><span class="card-label">FOCO ATUAL</span><span class="card-title">Criatividade<br>com propósito.</span><span class="card-arrow">↗</span></div>
+        <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span>
+        <span class="art-caption">PORTFÓLIO · 2026</span>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container intro-inner">
+        <p>UM POUCO SOBRE MIM</p>
+        <h2>Transformo desafios em oportunidades para aprender e criar.</h2>
+        <a class="round-link" href="curriculo.html" aria-label="Leia meu currículo">↗</a>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">FEITO COM INTENÇÃO</p><h2 id="projects-title">Projetos em destaque</h2></div>
+        <p>Algumas ideias e experiências que representam meu caminho até aqui.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-violet">
+          <div class="project-visual visual-orbit"><span class="visual-shape"></span><span class="visual-label">01 / DIGITAL</span></div>
+          <div class="project-meta"><div><p class="project-type">PROJETO ACADÊMICO</p><h3>Experiência em foco</h3></div><button class="save-project" type="button" data-save-project="Experiência em foco" aria-pressed="false">♡ <span>Salvar</span></button></div>
+          <p class="project-description">Uma solução pensada para organizar informações e tornar a navegação mais simples.</p>
+        </article>
+        <article class="project-card project-orange">
+          <div class="project-visual visual-blocks"><span class="block block-a"></span><span class="block block-b"></span><span class="block block-c"></span><span class="visual-label">02 / CRIAÇÃO</span></div>
+          <div class="project-meta"><div><p class="project-type">ESTUDO DE INTERFACE</p><h3>Formas de conectar</h3></div><button class="save-project" type="button" data-save-project="Formas de conectar" aria-pressed="false">♡ <span>Salvar</span></button></div>
+          <p class="project-description">Uma exploração visual sobre como boas escolhas de design aproximam pessoas e ideias.</p>
+        </article>
+        <article class="project-card project-green">
+          <div class="project-visual visual-lines"><span class="line line-a"></span><span class="line line-b"></span><span class="line line-c"></span><span class="visual-label">03 / DADOS</span></div>
+          <div class="project-meta"><div><p class="project-type">EXPERIMENTO</p><h3>Dados em movimento</h3></div><button class="save-project" type="button" data-save-project="Dados em movimento" aria-pressed="false">♡ <span>Salvar</span></button></div>
+          <p class="project-description">Um exercício de transformar dados em uma história visual clara e acessível.</p>
+        </article>
+      </div>
+      <p class="saved-summary" id="saved-summary" aria-live="polite"></p>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner"><div><p class="eyebrow">TEM UMA IDEIA?</p><h2>Vamos construir algo<br>interessante juntos.</h2></div><a class="button button-light" href="formulario.html">Fale comigo <span aria-hidden="true">↗</span></a></div>
+      <span class="cta-decoration" aria-hidden="true">✳</span>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">P</span><span>portfólio<span class="brand-dot">.</span></span></a><p>Feito com curiosidade e vontade de aprender.</p><span>© <span data-current-year></span> Felipe Silva</span></div></footer>
+</body>
+</html>
